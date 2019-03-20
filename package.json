@@ -1,0 +1,23 @@
+{
+  "name": "merge-util",
+  "version": "1.0.0",
+  "description": "Merge multiple objects into one, include Date/RegExp/Function instance, source objects are cloned, optionally overwrite the same property. Similar to other merge libs on NPM but more flexible. Works in Node.js and browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaffraytan/merge-util.git"
+  },
+  "keywords": [
+    "merge",
+    "util"
+  ],
+  "author": "JaffrayTan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaffraytan/merge-util/issues"
+  },
+  "homepage": "https://github.com/jaffraytan/merge-util#readme"
+}
