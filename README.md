@@ -34,7 +34,7 @@ console.log('obj: ', obj);
 ```
 ### 2.2.2) 仅导入部分API
 ```ts
-import BUILTIN_OBJECT, TYPED_ARRAY as typedArray, mergeAll from 'rs-merge-util';
+import { BUILTIN_OBJECT, TYPED_ARRAY as typedArray, mergeAll } from 'rs-merge-util';
 console.log(BUILTIN_OBJECT);
 console.log(typedArray);
 
