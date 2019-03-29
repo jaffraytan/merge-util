@@ -21,13 +21,26 @@ console.log('obj: ', obj);
 ```
 
 ## 2.2) TS（Angular）环境 (for TypeScript, Angular Project)
+### 2.2.1) 导入所有API
 ```ts
-import { mergeUtil } from 'rs-merge-util';
+import * as mergeUtil from 'rs-merge-util';
 console.log(mergeUtil);
+console.log(mergeUtil.BUILTIN_OBJECT);
 
 const obj1 = {a: 1, b: 2};
 const obj2 = {b: 3, c: 4};
 const obj = mergeUtil.mergeAll([{}, obj1, obj2], true);
+console.log('obj: ', obj);
+```
+### 2.2.2) 仅导入部分API
+```ts
+import BUILTIN_OBJECT, TYPED_ARRAY as typedArray, mergeAll from 'rs-merge-util';
+console.log(BUILTIN_OBJECT);
+console.log(typedArray);
+
+const obj1 = {a: 1, b: 2};
+const obj2 = {b: 3, c: 4};
+const obj = mergeAll([{}, obj1, obj2], true);
 console.log('obj: ', obj);
 ```
 

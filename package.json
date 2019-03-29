@@ -2,7 +2,7 @@
   "name": "rs-merge-util",
   "main": "./index.js",
   "types": "./index.d.ts",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaffraytan/rs-merge-util.git"
