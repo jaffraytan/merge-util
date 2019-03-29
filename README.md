@@ -3,13 +3,13 @@
 
  Merge multiple objects into one, include Date/RegExp/Function instance, source objects are cloned, optionally overwrite the same property. Similar to other merge libs on NPM but more flexible. Works in Node.js and browser.
 
-#1. 安装 (Installation)
+# 1. 安装 (Installation)
 ```bash
 npm install rs-merge-util --save
 ```
 
-#2. 使用 (Usage)
-##2.1) Node.js环境 (for Node.js Project)
+# 2. 使用 (Usage)
+## 2.1) Node.js环境 (for Node.js Project)
 ```js
 const mergeUtil = require("./rs-merge-util");
 console.log(mergeUtil);
@@ -20,7 +20,7 @@ const obj = mergeUtil.mergeAll([{}, obj1, obj2], true);
 console.log('obj: ', obj);
 ```
 
-##2.2) TS（Angular）环境 (for TypeScript, Angular Project)
+## 2.2) TS（Angular）环境 (for TypeScript, Angular Project)
 ```ts
 import { mergeUtil } from 'rs-merge-util';
 console.log(mergeUtil);
@@ -31,7 +31,7 @@ const obj = mergeUtil.mergeAll([{}, obj1, obj2], true);
 console.log('obj: ', obj);
 ```
 
-##2.3) 浏览器环境 (In Browser)
+## 2.3) 浏览器环境 (In Browser)
 ```html
 <script src="./rs-merge-util.js"></script>
 <script>
@@ -43,7 +43,7 @@ const obj = mergeUtil.mergeAll([{}, obj1, obj2], true);
 console.log('obj: ', obj);
 </script>
 ```
-#3. API
+# 3. API
 
 > * BUILTIN_OBJECT: Object
 
