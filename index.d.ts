@@ -1,15 +1,4 @@
 /**
- * 广州丰石科技有限公司拥有本软件版权 2019-03-27 并保留所有权利。
- * Copyright 2019, Guangzhou Rich Stone Data Technologies Company Limited,
- * All rights reserved.
- */
-
- /**
- * mergeUtil 命名空间
- */
-export namespace mergeUtil {
-
-/**
  * 内置对象，用于处理merge时无法遍历的对象的问题
         const BUILTIN_OBJECT = {
             '[object Error]': 1,
@@ -179,4 +168,4 @@ export namespace mergeUtil {
      */
     export function mergeAll(targetAndSources: any[], overwrite? : boolean): any;
 
-}
+// }
