@@ -1,7 +1,7 @@
 # rs-merge-util
-一个支持同时合并多个JSON对象的JS函数库，支持深度拷贝，支持拷贝日期、正则表达式以及函数对象，可选由后面的参数覆盖前面参数的同名非原子属性。本库支持在Node.js环境和浏览器环境下使用。
+一个支持同时合并多个JSON对象的JS函数库，支持深度拷贝，支持拷贝日期、正则表达式以及函数对象，可选由后面的参数覆盖前面参数的同名非原子属性。本库支持在Node.js环境、TypeScript环境以及浏览器环境下使用。
 
- Merge multiple objects into one, include Date/RegExp/Function instance, source objects are cloned, optionally overwrite the same property. Similar to other merge libs on NPM but more flexible. Works in Node.js and browser.
+ Merge multiple objects into one, include Date/RegExp/Function instance, source objects are cloned, optionally overwrite the same property. Similar to other merge libs on NPM but more flexible. Works with Node.js, TypeScript and browser.
 
 # 1. 安装 (Installation)
 ```bash
